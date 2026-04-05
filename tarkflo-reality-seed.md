@@ -66,22 +66,7 @@ The global hiring process is broken on both sides:
 - Strength: Resume optimization, job search tools
 - Weakness: Surface-level interview feedback, no adaptive learning, no profile analysis
 
-**Final Round AI:**
-- Real-time AI copilot for live interviews
-- Strength: Real-time assistance during actual interviews
-- Weakness: Ethically questionable, doesn't actually improve the candidate, crutch not a solution
 
-**Google Interview Warmup:**
-- Free basic interview practice
-- Strength: Free, backed by Google
-- Weakness: Very basic, no scoring depth, no improvement tracking, limited question types
-
-### Indirect Competitors
-
-- **LeetCode / HackerRank:** Coding practice only, no behavioral/HR prep, no holistic profile analysis
-- **LinkedIn Learning:** Generic courses, no personalized gap analysis
-- **Coursera / Udemy:** Content platforms, not preparation systems
-- **ChatGPT (direct use):** No structured flow, no scoring, no memory, no progress tracking
 
 ### Tarkflo's Competitive Differentiation
 
@@ -132,23 +117,58 @@ The global hiring process is broken on both sides:
 
 ## Business Model
 
-### B2C Revenue Streams
-- **Freemium:** Limited interviews/month, basic profile analysis
-- **Pro Plan (~$15-25/month):** Unlimited interviews, full reports, cover letters, voice mode
-- **Premium Plan (~$40-60/month):** Everything + priority AI models, advanced analytics, comparison reports
+### B2B — University/College Plans (Primary Revenue)
 
-### B2B Revenue Streams
-- **University Partnerships:** Per-student licensing for placement cells ($3-8/student/year)
-- **Enterprise Hiring:** Bulk interview assignments, custom templates, analytics dashboards ($500-2000/month)
-- **Recruiter Plans:** Candidate pre-screening and quality improvement ($200-800/month)
+**Annual Student Plan — Rs 2,000/student/year:**
+Includes:
+- 2x 10-minute interview sessions
+- 2x 20-minute interview sessions
+- 2x 30-minute interview sessions
+- 50 cover letter generations
+- 50 profile analyses
+- Total: 6 interview sessions + 50 cover letters + 50 profile analyses per student per year
+
+**Add-on Interview Pricing (if college needs more sessions):**
+- 10-minute session: Rs 160
+- 20-minute session: Rs 300
+- 30-minute session: Rs 500
+
+**Profit Margin:** Rs 1,000 profit per student (after server + infra + LLM costs)
+- Revenue per student: Rs 2,000
+- Cost per student (server + infra + LLM): Rs 1,000
+- Gross profit per student: Rs 1,000 (50% margin)
+
+### Free Trial (One-Time Kickstart)
+- 1x 10-minute interview session
+- 1x cover letter generation
+- 1x profile analysis
+- **Burn cost per free account: ~Rs 100**
+- Purpose: Let users experience the value, then convert to paid
+
+### B2C Revenue Streams (Paid After Free Trial)
+- **Standard Plan (~Rs 500-800/month):** Interviews, reports, cover letters, profile analysis
+- **Premium Plan (~Rs 1,500-2,000/month):** Everything + priority AI models, advanced analytics, voice mode, comparison reports
+
+### B2B — Enterprise/Recruiter Plans
+- **Enterprise Hiring:** Bulk interview assignments, custom templates, analytics dashboards (Rs 15,000-50,000/month)
+- **Recruiter Plans:** Candidate pre-screening and quality improvement (Rs 8,000-25,000/month)
 - **White-label API:** Interview engine as a service for other platforms
 
-### Unit Economics (Projected)
-- **CAC (B2C):** $5-15 (organic + content marketing heavy)
-- **LTV (B2C Pro):** $90-180 (6-12 month average lifecycle)
-- **LTV/CAC Ratio Target:** 6:1 to 12:1
-- **Gross Margin:** 70-80% (primary cost is LLM API usage)
-- **LLM Cost per Interview:** $0.15-0.50 depending on model and duration
+### Unit Economics
+
+**B2B (College Plan):**
+- Revenue per student: Rs 2,000/year
+- Cost per student: Rs 1,000/year (server + infra + LLM)
+- Gross profit per student: Rs 1,000 (50% margin)
+- Per-interview cost breakdown: 10min ~Rs 80, 20min ~Rs 150, 30min ~Rs 250
+- Add-on interviews are high-margin (60-70% gross margin)
+- At 1,000 students: Rs 20L revenue, Rs 10L profit/year
+- At 10,000 students: Rs 2Cr revenue, Rs 1Cr profit/year
+
+**B2C:**
+- CAC: Rs 100-300 (organic + content marketing heavy)
+- LTV (Pro): Rs 3,000-6,000 (6-12 month lifecycle)
+- LTV/CAC Ratio Target: 10:1+
 
 ---
 
@@ -158,8 +178,8 @@ The global hiring process is broken on both sides:
 - Launch on Indian engineering college circuit (5M+ annual graduates)
 - Content marketing: interview tips, career guides, YouTube
 - Product Hunt, Hacker News, Twitter/X launches
-- Free tier to drive adoption, convert to Pro
-- Target: 10,000 users, 500 paying subscribers in first 6 months
+- Free trial (1 interview + 1 cover letter + 1 profile analysis) to hook users, then paid conversion
+- Target: 10,000 paid users in first 6 months
 
 ### Phase 2 — Expansion
 - University partnerships (placement cells, coding bootcamps)
