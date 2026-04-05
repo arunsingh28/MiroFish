@@ -68,14 +68,37 @@ The global hiring process is broken on both sides:
 
 
 
+### Why ChatGPT / Generic LLMs Are NOT Competitors
+
+A common misconception is that candidates can "just use ChatGPT." This is fundamentally wrong:
+
+- **ChatGPT is generic** — it doesn't conduct structured interviews with phases, adaptive difficulty, or role-specific question banks
+- **No scoring or evaluation** — ChatGPT cannot grade answers on correctness, depth, clarity, or compare against benchmarks
+- **No detailed reports** — Tarkflo produces comprehensive post-interview reports:
+  - Answer Analysis: each answer graded on correctness, depth, and clarity with per-question scores
+  - Ideal Answers: AI-generated model answers for every question asked
+  - Speaking Analysis: speech rate, filler words count, clarity score, confidence score
+  - Competency Breakdown: scores across areas (fundamentals, system design, problem solving)
+  - Overall Score: single performance number with readiness level
+  - Comparison: progress tracking vs previous interviews
+  - Benchmark: performance vs other candidates at the same level
+  - Full Transcript: complete Q&A with timestamps + audio playback per turn
+  - Detailed Explanations: deep-dive into why each answer scored what it did
+- **No memory or progress tracking** — ChatGPT forgets everything between sessions
+- **No improvement loop** — ChatGPT gives one-off answers, Tarkflo runs Evaluate > Practice > Build > Re-evaluate
+
+Tarkflo is a **guided interview platform**, not a chatbot. The difference is like comparing a personal trainer to a YouTube fitness video.
+
 ### Tarkflo's Competitive Differentiation
 
-1. **Continuous Improvement Loop** — Not a one-time assessment. Evaluate > Practice > Build > Re-evaluate.
-2. **Deep Profile Analysis** — GitHub dependency scanning, tech rubric scoring across 8 dimensions, gap identification with actionable projects.
-3. **Adaptive AI Interviews** — Multi-armed bandit learning system that adapts question difficulty, persona, and depth based on candidate performance.
-4. **Project-Based Growth** — Suggests real-world projects mapped to gaps, tracks completion, re-analyzes after completion.
-5. **B2B + B2C Model** — Serves both individual candidates and organizations (universities, recruiters, enterprises).
-6. **Cover Letter + CV Intelligence** — Not just interviews — full application preparation.
+1. **Guided Interview Experience** — Structured phases (intro > warmup > core > deep_dive > exploration > situational > wrapup > closing) with adaptive difficulty, not random Q&A.
+2. **Deep Report System** — 9-component detailed report (answer analysis, ideal answers, speaking analysis, competency breakdown, overall score, comparison, benchmark, transcript, explanations). No competitor offers this depth.
+3. **Continuous Improvement Loop** — Not a one-time assessment. Evaluate > Practice > Build > Re-evaluate.
+4. **Deep Profile Analysis** — GitHub dependency scanning, tech rubric scoring across 8 dimensions, gap identification with actionable projects.
+5. **Adaptive AI Interviews** — Multi-armed bandit learning system that adapts question difficulty, persona, and depth based on candidate performance.
+6. **Project-Based Growth** — Suggests real-world projects mapped to gaps, tracks completion, re-analyzes after completion.
+7. **B2B + B2C Model** — Serves both individual candidates and organizations (universities, recruiters, enterprises).
+8. **Cover Letter + CV Intelligence** — Not just interviews — full application preparation.
 
 ---
 
@@ -205,7 +228,7 @@ Includes:
 - **Voice Latency:** Real-time voice interviews require low latency. Mitigation: Cartesia for TTS, WebRTC streaming, edge deployment.
 
 ### Market Risks
-- **"Good Enough" Free Tools:** Google Interview Warmup, ChatGPT direct use. Mitigation: depth of analysis, continuous loop, structured improvement — things free tools can't replicate.
+- **"Why not just use ChatGPT?" Perception:** Some candidates may initially think generic LLMs are sufficient. Mitigation: Tarkflo's guided interview structure, 9-component detailed reports, adaptive difficulty, and progress tracking are fundamentally different from a chatbot conversation — once users experience the free trial, the value gap becomes obvious.
 - **Competitor Moats:** Interviewing.io has real human interviewers, LeetCode has massive community. Mitigation: differentiate on the improvement loop, not just assessment.
 - **B2B Sales Cycle:** Enterprise and university deals take 3-6 months. Mitigation: bottom-up B2C adoption that creates demand from within organizations.
 
